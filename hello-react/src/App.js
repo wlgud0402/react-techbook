@@ -1,8 +1,9 @@
 import React from "react";
-import MyComponent from "./MyComponent";
+// import MyComponent from "./MyComponent";
+import EventPractice from "./EventPractice";
 
 const App = () => {
-  return <MyComponent name="React입니당" />;
+  return <EventPractice />;
 };
 
 export default App;

@@ -4,11 +4,12 @@ import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import Counter from "./Counter";
-import Say from "./Say";
+// import Say from "./Say";
+import EventPractice from "./EventPractice";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Say />
+    <EventPractice />
   </React.StrictMode>,
   document.getElementById("root")
 );
