@@ -1,9 +1,10 @@
 import React from "react";
 // import MyComponent from "./MyComponent";
 import EventPractice from "./EventPractice";
+import Validation from "./Validation";
 
 const App = () => {
-  return <EventPractice />;
+  return <Validation />;
 };
 
 export default App;

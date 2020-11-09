@@ -6,10 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 // import Counter from "./Counter";
 // import Say from "./Say";
 import EventPractice from "./EventPractice";
+import Validation from "./Validation";
 
 ReactDOM.render(
   <React.StrictMode>
-    <EventPractice />
+    <Validation />
   </React.StrictMode>,
   document.getElementById("root")
 );
