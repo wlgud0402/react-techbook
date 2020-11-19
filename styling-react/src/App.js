@@ -1,5 +1,5 @@
 import "./App.css";
-import CSSModule from "./CSSModule";
+// import CSSModule from "./CSSModule";
 import "./test.scss";
 import SassComponent from "./SassComponent";
 
