@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// import { createStore } from 'redux';
-// import * as serviceWorker from './serviceWorker';
-// import rootReducer from './modules';
+import { createStore } from 'redux';
+import rootReducer from './modules';
 
-// const store = createStore(rootReducer);
+const store = createStore(rootReducer);
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,5 +15,4 @@ ReactDOM.render(
   document.getElementById('root'),
 );
 
-// serviceWorker.unregister();
 reportWebVitals();
